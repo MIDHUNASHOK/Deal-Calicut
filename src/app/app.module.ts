@@ -3,14 +3,20 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LandingPageComponent } from './home/landing-page/landing-page.component';
+import { ClothingComponent } from './features/clothing/clothing.component';
+import { FeatureModule } from './features/feature.module';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    // ClothingComponent
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FeatureModule
   ],
   providers: [
     provideClientHydration()
