@@ -4,6 +4,7 @@
     padding: 0.5rem 1rem;
     margin: 0.25rem;
     background-color: #f8f9fa;
+    cursor: pointer;
   }
   .deal-card {
     border: 1px solid #e0e0e0;
@@ -12,3 +13,29 @@
     margin-bottom: 1rem;
     height: 100%;
   }
+
+
+  .custom-input {
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 1rem;
+  }
+  
+  .custom-btn {
+    background-color: #1a2a5b;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+  }
+  
+  .custom-btn:hover {
+    background-color: #14224a;
+  }
+
+  h1,h4{
+    color: #1a2a5b;
+   
+  }
+  
